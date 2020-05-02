@@ -83,7 +83,7 @@ button {
 	padding: 20px;
 	transition: ease all .3s;
 	width: 230px;
-}
+} 
 
 button:focus {
 	outline: none;
@@ -110,4 +110,27 @@ button:focus {
 	margin: 30px 10px 0 0;
 	display: inline-flex;
 }
+
+@media only screen and (max-width: 550px) {
+	.container {
+		margin: 80px auto 0 auto;
+	}
+
+	button {
+		margin: 15px;
+	}
+
+	.tacos-wrap {
+		margin-bottom: 30px;
+	}
+
+	h1 {
+		font-size: 46px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+}
+
 </style>
